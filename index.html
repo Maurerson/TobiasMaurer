@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tobias Maurer – dein IT-Helfer aus Lienz</title>
-<meta name="description" content="Hallo, ich bin Tobias aus Lienz SG. Ich helfe dir bei Computer, Handy, Webseite, KI, Updates und Wartung – abends und am Wochenende, verständlich und zum festen Preis.">
+<title>Tobias Maurer – dein IT-Helfer aus dem Rheintal</title>
+<meta name="description" content="Hallo, ich bin Tobias aus dem St. Galler Rheintal. Ich helfe dir bei Computer, Handy, Webseite, KI, Updates und Wartung – abends und am Wochenende, verständlich und zum festen Preis.">
 <link rel="canonical" href="https://maurerson.github.io/TobiasMaurer/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_CH">
-<meta property="og:title" content="Tobias Maurer – dein IT-Helfer aus Lienz">
+<meta property="og:title" content="Tobias Maurer – dein IT-Helfer aus dem Rheintal">
 <meta property="og:description" content="Computer, Handy, Webseite, KI: Ich helfe dir – verständlich und zum festen Preis.">
 <meta property="og:image" content="https://maurerson.github.io/TobiasMaurer/assets/img/og.jpg">
-<meta name="theme-color" content="#FBF6EE">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23E8875B'/%3E%3Ctext x='16' y='21.5' font-family='Georgia' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#F5F8FC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23087E8B'/%3E%3Ctext x='16' y='21.5' font-family='Georgia' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
 <link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/schibsted-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
@@ -26,16 +26,16 @@
 
 /* Farben – hier zentral ändern */
 :root{
-  --creme:#FBF6EE;      /* Grundfläche */
-  --sand:#F3EADB;       /* zweite Fläche */
-  --papier:#FFFDF9;     /* Karten */
-  --tinte:#2B2A26;      /* Haupttext */
-  --grau:#6A6358;       /* Nebentext */
-  --linie:#E6DACA;
-  --tanne:#2F5D50;      /* ruhiges Grün */
-  --tanne-dunkel:#244A40;
-  --apricot:#E8875B;    /* warmer Akzent */
-  --sonne:#F6C969;      /* Markierung */
+  --creme:#F5F8FC;      /* Grundfläche, leicht bläulich */
+  --sand:#E9F0F7;       /* zweite Fläche */
+  --papier:#FFFFFF;     /* Karten (Weiss) */
+  --tinte:#17324D;      /* Haupttext (Navy) */
+  --grau:#4F6479;       /* Nebentext */
+  --linie:#D6E1EC;
+  --tanne:#155EEF;      /* Knöpfe & Links (Blau) */
+  --tanne-dunkel:#17324D; /* Navy */
+  --apricot:#087E8B;    /* Akzent (Türkis) */
+  --sonne:#BFE6E9;      /* Markierung (helles Türkis) */
   --breite:68rem;
   --rand:clamp(1.25rem,5vw,3rem);
   --abschnitt:clamp(4rem,9vw,7rem);
@@ -59,7 +59,7 @@ a:hover{color:var(--tanne-dunkel)}
 .knopf.hell:hover{background:var(--tanne);color:#fff}
 
 /* Kopf */
-.kopf{position:sticky;top:0;z-index:10;background:rgba(251,246,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid transparent}
+.kopf{position:sticky;top:0;z-index:10;background:rgba(245,248,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid transparent}
 .kopf .huelle{display:flex;align-items:center;justify-content:space-between;min-height:4.25rem;gap:1rem}
 .marke{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--tinte);font-weight:700}
 .marke span{display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--apricot);color:#fff;font-family:"Fraunces",serif}
@@ -78,10 +78,10 @@ a:hover{color:var(--tanne-dunkel)}
 .start .knoepfe{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
 .punkte{display:flex;flex-wrap:wrap;gap:.5rem;margin:2rem 0 0;padding:0;list-style:none}
 .punkte li{background:var(--sand);border-radius:999px;padding:.35rem .9rem;font-size:.95rem}
-.polaroid{position:relative;background:#fff;padding:.9rem .9rem 3.4rem;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(60,40,20,.16);max-width:24rem;margin:0 auto}
+.polaroid{position:relative;background:#fff;padding:.9rem .9rem 3.4rem;transform:rotate(2.5deg);box-shadow:0 18px 40px rgba(23,50,77,.16);max-width:24rem;margin:0 auto}
 .polaroid img{aspect-ratio:1;object-fit:cover;width:100%}
 .polaroid .hand{position:absolute;left:0;right:0;bottom:.7rem;text-align:center;color:var(--grau)}
-.polaroid::before{content:"";position:absolute;top:-.9rem;left:50%;width:7rem;height:1.9rem;margin-left:-3.5rem;background:rgba(246,201,105,.8);transform:rotate(-4deg)}
+.polaroid::before{content:"";position:absolute;top:-.9rem;left:50%;width:7rem;height:1.9rem;margin-left:-3.5rem;background:rgba(8,126,139,.35);transform:rotate(-4deg)}
 @media (max-width:820px){.start .huelle{grid-template-columns:1fr}.polaroid{max-width:17rem;order:-1}}
 
 /* Abschnitte */
@@ -102,13 +102,13 @@ section{padding:var(--abschnitt) 0}
 .karten{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem}
 @media (max-width:720px){.karten{grid-template-columns:1fr}}
 .karte{background:var(--papier);border-radius:20px;padding:1.75rem;border:1px solid var(--linie);transition:transform .2s,box-shadow .2s}
-.karte:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(60,40,20,.08)}
+.karte:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(23,50,77,.08)}
 .symbol{width:3rem;height:3rem;border-radius:14px;display:grid;place-items:center;margin-bottom:1.1rem}
 .symbol svg{width:1.6rem;height:1.6rem}
-.k1 .symbol{background:#FBE3D6;color:#B85A31}
-.k2 .symbol{background:#DCEBE4;color:var(--tanne)}
-.k3 .symbol{background:#FCEFCB;color:#9A6B0B}
-.k4 .symbol{background:#E7E2F3;color:#5B4C8A}
+.k1 .symbol{background:#E3ECFE;color:#155EEF}
+.k2 .symbol{background:#DDF1F3;color:#087E8B}
+.k3 .symbol{background:#E4EAF1;color:#17324D}
+.k4 .symbol{background:#E3ECFE;color:#155EEF}
 .karte h3{font-size:1.45rem}
 .karte p{color:var(--grau);margin-top:.5rem}
 .karte ul{margin:1rem 0 0;padding:0;list-style:none;display:grid;gap:.4rem}
@@ -128,22 +128,16 @@ section{padding:var(--abschnitt) 0}
 .schritte li::before{content:counter(s);display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--apricot);color:#fff;font-family:"Fraunces",serif;font-size:1.2rem;margin-bottom:.9rem}
 .schritte h3{font-size:1.2rem}
 .schritte p{color:var(--grau);margin-top:.4rem;font-size:1rem}
-.preis{margin-top:2rem;background:var(--tanne);color:#fff;border-radius:24px;padding:clamp(1.5rem,4vw,2.5rem);display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center}
+.preis{margin-top:2rem;background:var(--tanne-dunkel);color:#fff;border-radius:24px;padding:clamp(1.5rem,4vw,2.5rem);display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center}
 .preis h3{font-size:clamp(1.5rem,3vw,2rem)}
-.preis p{color:#DCEBE4;margin-top:.5rem;max-width:38rem}
+.preis p{color:#C9D7E6;margin-top:.5rem;max-width:38rem}
 .preis .hand{color:var(--sonne);font-size:1.9rem;transform:rotate(-3deg)}
 @media (max-width:640px){.preis{grid-template-columns:1fr}}
 
 /* Über mich */
-.ueber{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(2rem,6vw,4.5rem);align-items:center}
-@media (max-width:820px){.ueber{grid-template-columns:1fr}}
+.ueber .text{max-width:44rem}
 .ueber .text p+p{margin-top:1rem}
 .ueber .text p{font-size:1.1rem}
-.steckbrief{background:var(--papier);border-radius:22px;padding:1.75rem;border:2px dashed var(--linie)}
-.steckbrief .hand{font-size:1.9rem;margin-bottom:.75rem}
-.steckbrief dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.2rem}
-.steckbrief dt{color:var(--grau)}
-.steckbrief dd{margin:0;font-weight:500}
 
 /* Webseiten-Check */
 .check{background:var(--papier);border-radius:24px;padding:clamp(1.75rem,4vw,3rem);display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;border:1px solid var(--linie)}
@@ -201,7 +195,7 @@ footer h3{font-family:"Schibsted Grotesk",sans-serif;font-size:.95rem;font-weigh
     <div class="huelle">
       <div>
         <p class="hand">Schön, dass du da bist!</p>
-        <h1>Hallo, ich bin Tobias – <em>dein IT&#8209;Helfer</em> aus Lienz.</h1>
+        <h1>Hallo, ich bin Tobias – <em>dein IT&#8209;Helfer</em> aus dem Rheintal.</h1>
         <p class="lead">Computer, Handy, Webseite oder KI: Wenn's hakt oder du nicht weiterweisst, helfe ich dir. Verständlich, geduldig und zu einem festen Preis, den du vorher kennst.</p>
         <div class="knoepfe">
           <a class="knopf" href="#kontakt">Schreib mir einfach</a>
@@ -228,8 +222,7 @@ footer h3{font-family:"Schibsted Grotesk",sans-serif;font-size:.95rem;font-weigh
       <div class="ehrlich einblenden">
         <p class="hand" id="ehrlich-titel">Ganz ehrlich …</p>
         <div>
-          <p>Tagsüber arbeite ich als IT-System Engineer in einem Unternehmen. Ich kümmere mich um Server, Netzwerke und alles, was dazugehört.</p>
-          <p>Nebenbei möchte ich mir etwas Eigenes aufbauen und dabei Menschen hier in der Gegend helfen. Ich bin keine grosse Agentur, sondern einfach ein Nachbar, der sich mit Technik auskennt und gern erklärt. Deshalb fange ich bewusst klein an: <span class="markiert">ohne Fachchinesisch, ohne versteckte Kosten, mit viel Freude an der Sache.</span></p>
+          <p>Neben meinem Job möchte ich mir etwas Eigenes aufbauen und dabei Menschen hier in der Gegend helfen. Ich bin keine grosse Agentur, sondern einfach ein Nachbar, der sich mit Technik auskennt und gern erklärt. Deshalb fange ich bewusst klein an: <span class="markiert">ohne Fachchinesisch, ohne versteckte Kosten, mit viel Freude an der Sache.</span></p>
         </div>
       </div>
     </div>
@@ -321,21 +314,9 @@ footer h3{font-family:"Schibsted Grotesk",sans-serif;font-size:.95rem;font-weigh
 
   <section id="ueber-mich" aria-labelledby="ueber-titel">
     <div class="huelle ueber">
-      <div class="steckbrief einblenden">
-        <p class="hand">Mein Steckbrief</p>
-        <dl>
-          <dt>Name</dt><dd>Tobias Maurer</dd>
-          <dt>Wohnt in</dt><dd>Lienz im St. Galler Rheintal</dd>
-          <dt>Familie</dt><dd>verheiratet, zwei Kinder</dd>
-          <dt>Beruf</dt><dd>IT-System Engineer</dd>
-          <dt>In der IT seit</dt><dd>2011</dd>
-          <dt>Zeit für dich</dt><dd>abends &amp; am Wochenende</dd>
-          <dt>Superkraft</dt><dd>Technik so erklären, dass man sie versteht</dd>
-        </dl>
-      </div>
       <div class="text einblenden">
         <div class="titel" style="margin-bottom:1.5rem"><h2 id="ueber-titel">Ein bisschen über mich</h2></div>
-        <p>Ich bin Tobias, verheiratet und Papa von zwei Schulkindern. Wir wohnen in Lienz und fühlen uns hier im Rheintal richtig wohl.</p>
+        <p>Ich bin Tobias, verheiratet und Papa von zwei Schulkindern. Wir wohnen im St. Galler Rheintal und fühlen uns hier richtig wohl.</p>
         <p>Seit meiner IT-Ausbildung 2011 arbeite ich in der Informatik, erst bei IT-Dienstleistern, heute in der IT eines Unternehmens. Dort habe ich gelernt, was im Alltag wirklich funktioniert und was nur kompliziert klingt.</p>
         <p>Mir ist wichtig, dass du nach unserem Termin <span class="markiert">mehr verstehst als vorher</span>. Und wenn sich etwas nicht lohnt, sage ich dir das ehrlich, auch wenn ich dann nichts daran verdiene.</p>
       </div>

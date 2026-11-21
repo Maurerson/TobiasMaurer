@@ -1,6 +1,6 @@
 # TobiasMaurer
 
-Persönliche Webseite von Tobias Maurer, IT-Helfer aus Lienz SG.
+Persönliche Webseite von Tobias Maurer, IT-Helfer aus dem St. Galler Rheintal.
 
 Live: https://maurerson.github.io/TobiasMaurer/
 
