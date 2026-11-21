@@ -164,6 +164,7 @@ section{padding:var(--abschnitt) 0}
 .kontakt .lead{color:var(--grau);font-size:1.15rem;max-width:34rem;margin:1rem auto 0}
 .wege{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-top:2rem}
 .weg{background:var(--papier);border:1px solid var(--linie);border-radius:18px;padding:1.1rem 1.5rem;text-decoration:none;color:var(--tinte);min-width:15rem;transition:transform .2s}
+@media (max-width:560px){.wege{flex-direction:column;align-items:stretch;max-width:20rem;margin-inline:auto}}
 .weg:hover{transform:translateY(-2px);color:var(--tinte)}
 .weg small{display:block;color:var(--grau)}
 .weg strong{font-size:1.1rem}
